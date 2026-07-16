@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+
+    width:550px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h2{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    box-sizing:border-box;
+}
+
+textarea{
+    height:100px;
+}
+
+.radio-group input,
+.checkbox-group input{
+
+    width:auto;
+    margin-top:10px;
+}
+
+.error{
+
+    color:red;
+    font-size:14px;
+}
+
+button{
+
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:green;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+
+    background:darkgreen;
+}
+
+#successMessage{
+
+    color:green;
+    text-align:center;
+    margin-top:20px;
+}
